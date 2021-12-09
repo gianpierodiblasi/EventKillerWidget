@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+  <ExtensionPackages>
+    <ExtensionPackage 
+      name="EventKillerWidget"
+      packageVersion="1.0.0"
+      vendor="Accenture Italy - Industry X"
+      description='Extension to "kill" events'
+      minimumThingWorxVersion="8.3.0"
+      dependsOn=""> 
+    </ExtensionPackage>
+  </ExtensionPackages>
+  
+  <Widgets>
+    <Widget name="eventkiller">
+      <UIResources>
+        <FileResource description="" file="eventkiller.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
+        <FileResource description="" file="eventkiller.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
+        <FileResource description="" file="eventkiller.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
+        <FileResource description="" file="eventkiller.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+      </UIResources>
+    </Widget>    
+  </Widgets>
+</Entities>
