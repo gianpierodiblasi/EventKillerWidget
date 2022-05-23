@@ -1,6 +1,8 @@
 # EventKillerWidget
 An extension to "kill" events.
 
+**This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite and there is no PTC support.**
+
 ## Description
 This extension provides a widget to "kill" events occurring within a certain interval (temporal or numerical). Sometimes it is necessary to reject/kill some events occuring in a mashup. This widget provides an useful tool to perform this task. The widget has several logics to reject an event:
 - Time = the "extermination" occurs on a temporal basis
